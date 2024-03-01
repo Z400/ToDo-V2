@@ -32,7 +32,7 @@ Crie uma lista de tarefas.
        }
        
        @if(listItemStage('completed').length){
-        <h2>Concluído</h2>
+        <h2>Concluido</h2>
         <app-input-list-items [inputListItems]="listItemStage('completed')"
         (outputUpdateItemCheckbox)="updateItemCheckbox($event)"
         (outputUpdateItemText) = updateItemText($event)/>
